@@ -14,7 +14,7 @@ The true power of Files scalability is the ability to simply add more Files VMs,
 Expanding a Files Cluster
 ++++++++++++++++++++++++++++++++++++
 
-#. Return to **Prism > File Server** and select *Initials*\ **-Files**.
+#. Return to **Prism > File Server** and select **BootcampFS**.
 
 #. Click **Update > Number of File Server VMs**.
 
@@ -48,7 +48,7 @@ Expanding a Files Cluster
 
    .. figure:: images/28.png
 
-#. Open **DC.ntnxlab.local > Forward Lookup Zones > ntnxlab.local** and verify there are now four entries for *Initials*\ -**files**. Files leverages round robin DNS to load balance connections across Files VMs.
+#. Open **DC.ntnxlab.local > Forward Lookup Zones > ntnxlab.local** and verify there are now four entries for **BootcampFS**. Files leverages round robin DNS to load balance connections across Files VMs.
 
    .. figure:: images/29.png
 
