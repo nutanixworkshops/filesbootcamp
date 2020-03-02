@@ -9,6 +9,21 @@ Overview
 
 In this exercise you will create and test a SMB share, used to support home directories, user profiles, and other unstructured file data such as departmental shares commonly accessed by Windows clients.
 
+Lab Setup
++++++++++
+
+This lab requires applications provisioned as part of the :ref:`windows_tools_vm`.
+
+If you have not yet deployed this VM, see the linked steps before proceeding with the lab.
+
+#. While waiting for the file server deployment, if you have not already done so deploy the Windows Tools VM.
+
+#. Connect to the Windows Tools VM via RDP or console
+
+#. Download the sample files for File Analytics to the Tools VM:
+
+   - `https://peerresources.blob.core.windows.net/sample-data/SampleData_Small.zip <https://peerresources.blob.core.windows.net/sample-data/SampleData_Small.zip>`_
+
 Using SMB Shares
 ++++++++++++++++
 
@@ -21,7 +36,7 @@ Creating the Share
 
    - **Name** - Marketing
    - **Description (Optional)** - Departmental share for marketing team
-   - **File Server** - *Initials*\ **-Files**
+   - **File Server** - BootcampFS
    - **Share Path (Optional)** - Leave blank. This field allows you to specify an existing path in which to create the nested share.
    - **Max Size (Optional)** - Leave blank. This field allows you to set a hard quota for the individual share.
    - **Select Protocol** - SMB
@@ -57,7 +72,7 @@ Testing the Share
 
      The Tools VM has already been joined to the **NTNXLAB.local** domain. You could use any domain joined VM to complete the following steps.
 
-#. Open ``\\<Intials>-Files.ntnxlab.local\`` in **File Explorer**.
+#. Open ``\\BootcampFS.ntnxlab.local\`` in **File Explorer**.
 
    .. figure:: images/17.png
 
@@ -74,7 +89,7 @@ Testing the Share
 
    .. figure:: images/19.png
 
-#. Select **Users (**\ *Initials*\ **-Files\\Users)** and click **Remove**.
+#. Select **Users (BootcampFS\\Users)** and click **Remove**.
 
 #. Click **Add**.
 

@@ -4,23 +4,7 @@
 Files: Deploy
 -------------
 
-*Estimated time to complete all Files labs: 1 HOUR*
-
-Overview
-++++++++
-
-Traditionally, file storage has been yet another silo within IT, introducing unnecessary complexity and suffering from the same issues of scale and lack of continuous innovation seen in SAN storage. Nutanix believes there is no room for silos in the Enterprise Cloud. By approaching file storage as an app, running in software on top of a proven HCI core, Nutanix Files  delivers high performance, scalability, and rapid innovation through One Click management.
-
-**In this lab you will step through a Files deployment, manage SMB shares and NFS exports, scale out the environment, and explore upcoming Files features. The lab will provide key considerations around deployment, configuration, and use cases.**
-
 .. _deploying_files:
-
-Lab Setup
-+++++++++
-
-This lab requires applications provisioned as part of the :ref:`windows_tools_vm`.
-
-If you have not yet deployed this VM, see the linked steps before proceeding with the lab.
 
 Deploy Files
 ++++++++++++
@@ -29,7 +13,7 @@ Deploy Files
 
    .. figure:: images/1.png
 
-   For the purpose of saving time, the Files 3.5.2 package has already been uploaded to your cluster. Files binaries can be downloaded directly through Prism or uploaded manually.
+   For the purpose of saving time, the Files has already been uploaded to your cluster. Files binaries can be downloaded directly through Prism or uploaded manually.
 
    .. figure:: images/2.png
 
@@ -126,20 +110,7 @@ Deploy Files
 
      If you receive a warning regarding DNS record validation failure, this can be safely ignored. The shared cluster does not use the same DNS servers as your Files cluster, and as a result is unable to resolve the DNS entries created when deploying Files.
 
-#. While waiting for the file server deployment, if you have not already done so deploy the Windows Tools VM.
-
-#. Connect to the Windows Tools VM via RDP or console
-
-#. Download the sample files for File Analytics to the Tools VM:
-
-   - `https://peerresources.blob.core.windows.net/sample-data/SampleData_Small.zip <https://peerresources.blob.core.windows.net/sample-data/SampleData_Small.zip>`_
-
-#. Download the File Analytics json and qcow files to the Tools VM
-
-   - `nutanix-file-analytics-2.0.0-metadata.json <http://10.42.194.11/workshop_staging/fileanalytics-2.0.0.json>`_
-   - `nutanix-file-analytics-2.0.0.qcow2 <http://10.42.194.11/workshop_staging/nutanix-file_analytics-el7.6-release-2.0.0.qcow2>`_
-
-#. Upon completion, return to **Prism > File Server** and select the *Initials*\ **-Files** server and click **Protect**.
+#. Go to **Prism > File Server** and select the *Initials*\ **-Files** server and click **Protect**.
 
    .. figure:: images/12.png
 
