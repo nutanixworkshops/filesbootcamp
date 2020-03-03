@@ -18,7 +18,7 @@
   :hidden:
 
   file_analytics_scan/file_analytics_scan
-  file_analytics_anomaly/file_analytics_anomal
+  file_analytics_anomaly/file_analytics_anomaly
 
 .. toctree::
    :maxdepth: 2
