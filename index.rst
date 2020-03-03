@@ -21,6 +21,14 @@
   file_analytics_anomaly/file_analytics_anomal
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Bonus Labs
+   :name: _bonus
+   :hidden:
+
+   peer/peer
+
+.. toctree::
   :maxdepth: 2
   :caption: Optional Labs
   :name: _optional_labs
@@ -73,6 +81,9 @@ Agenda
     - Files: Selective File Blocking
     - File Analytics: Review Initial Scan
     - File Analytics: Anomaly Rules
+
+- Bomus Labs
+    - Peer
 
 - Optional Labs
     - Files: Deploy
