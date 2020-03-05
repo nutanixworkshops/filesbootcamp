@@ -82,7 +82,7 @@ Agenda
     - File Analytics: Review Initial Scan
     - File Analytics: Anomaly Rules
 
-- Bomus Labs
+- Bonus Labs
     - Peer
 
 - Optional Labs
