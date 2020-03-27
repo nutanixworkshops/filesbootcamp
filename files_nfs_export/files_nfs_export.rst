@@ -12,6 +12,21 @@ In this exercise you will create and test a NFSv4 export, used to support cluste
 Using NFS Exports
 +++++++++++++++++
 
+Enabling NFS Protocol
+.....................
+
+.. note::
+
+   Enabling NFS protocol only needs to be performed once per Files server, and may have already been completed in your environment. If NFS is already enabled, proceed to `Configure User Mappings`_.
+
+#. In **Prism Element > File Server**, select your file server and click **Protocol Management > Directory Services**.
+
+   .. figure:: images/29.png
+
+#. Select **Use NFS Protocol** with **Unmanaged** User Management and Authentication, and click **Update**.
+
+   .. figure:: images/30.png
+
 Creating the Export
 ...................
 
