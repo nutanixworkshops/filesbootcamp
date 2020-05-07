@@ -56,7 +56,7 @@ Getting Started
 
 Welcome to the Nutanix Files Bootcamp!
 
-This workbook accompanies an instructor-led session that introduces Nutanix Era and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
+This workbook accompanies an instructor-led session that introduces Nutanix Files and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
 
 Traditionally, file storage has been yet another silo within IT, introducing unnecessary complexity and suffering from the same issues of scale and lack of continuous innovation seen in SAN storage. Nutanix believes there is no room for silos in the Enterprise Cloud. By approaching file storage as an app, running in software on top of a proven HCI core, Nutanix Files  delivers high performance, scalability, and rapid innovation through One Click management.
 
@@ -257,9 +257,9 @@ Employee Pulse Secure VPN
 
 Download the client:
 
-PHX Based Clusters Login to: https://xld-uswest1.nutanix.com
+PHX Based Clusters Login to: https://xlv-uswest1.nutanix.com
 
-RTP Based Clusters Login to: https://xld-useast1.nutanix.com
+RTP Based Clusters Login to: https://xlv-useast1.nutanix.com
 
 **Nutanix Employees** - Use your **NUTANIXDC** credentials
 **Non-Employees** - Use **Lab Access User** Credentials
@@ -285,5 +285,5 @@ Nutanix Version Info
 ++++++++++++++++++++
 
 - **AHV Version** - AHV 20170830.337
-- **AOS Version** - 5.11.2.3
-- **PC Version** - 5.11.2.1
+- **AOS Version** - 5.16.x
+- **PC Version** - 5.16.x
