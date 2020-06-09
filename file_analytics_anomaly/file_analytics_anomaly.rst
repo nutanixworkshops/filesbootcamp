@@ -87,7 +87,7 @@ Cause Error Condition
 
 #. Enter the following
 
-   - **User name**: Poweruser01
+   - **User name**: devuser01
    - **Password**: nutanix/4u
 
 #. Change Directories into the Marketing share and the **RO** directory

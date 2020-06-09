@@ -17,7 +17,7 @@ Enabling NFS Protocol
 
 .. note::
 
-   Enabling NFS protocol only needs to be performed once per Files server, and may have already been completed in your environment. If NFS is already enabled, proceed to `Configure User Mappings`_.
+   Enabling NFS protocol only needs to be performed once per Files server, and may have already been completed in your environment. If NFS is already enabled, proceed to `Creating the Export`_.
 
 #. In **Prism Element > File Server**, select your file server and click **Protocol Management > Directory Services**.
 
