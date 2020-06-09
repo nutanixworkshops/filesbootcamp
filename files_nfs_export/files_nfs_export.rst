@@ -17,15 +17,15 @@ Enabling NFS Protocol
 
 .. note::
 
-   Enabling NFS protocol only needs to be performed once per Files server, and may have already been completed in your environment. If NFS is already enabled, proceed to `Configure User Mappings`_.
+   Enabling NFS protocol only needs to be performed once per Files server, and may have already been completed in your environment. If NFS is already enabled, proceed to `Creating the Export`_.
 
 #. In **Prism Element > File Server**, select your file server and click **Protocol Management > Directory Services**.
 
-   .. figure:: images/29.png
+   .. figure:: images/29b.png
 
 #. Select **Use NFS Protocol** with **Unmanaged** User Management and Authentication, and click **Update**.
 
-   .. figure:: images/30.png
+   .. figure:: images/30b.png
 
 Creating the Export
 ...................
@@ -41,7 +41,7 @@ Creating the Export
    - **Max Size (Optional)** - Leave blank
    - **Select Protocol** - NFS
 
-   .. figure:: images/24.png
+   .. figure:: images/24b.png
 
 #. Click **Next**.
 
@@ -54,7 +54,7 @@ Creating the Export
    - Select **+ Add exceptions**
    - **Clients with Read-Write Access** - *The first 3 octets of your cluster network*\ .* (e.g. 10.38.1.\*)
 
-   .. figure:: images/25.png
+   .. figure:: images/25b.png
 
    By default an NFS export will allow read/write access to any host that mounts the export, but this can be restricted to specific IPs or IP ranges.
 
